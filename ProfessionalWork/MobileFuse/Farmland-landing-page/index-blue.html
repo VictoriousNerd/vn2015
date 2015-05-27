@@ -1,0 +1,427 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FarmLand Landing Page</title>
+<link type="text/css" rel="stylesheet" href="css/landing-page.css">
+<link type="text/css" rel="stylesheet" href="css/portBox.css">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="js/portBox.js"></script>
+<style>
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+</style>
+</head>
+<body>
+<div class="page-contents">
+<div class="header-row">
+<div class="container">
+<img src="images/farmland-logo.png" alt="Winter Warm Up | Farmland" />
+<div class="banner"><a href="#">Click here to <span class="largetype">SEE MORE!</span></a></div></div></div>
+<div class="container" style="background:#fff;">
+<div class="page-title">13 Great Recipes!</div>
+<ul class="gallery">
+<li><img src="images/Bacon-Wrapped-Meatloaf-23-1.jpg" alt="Bacon-Wrapped Meatloaf" />
+<a href="#" data-display="meatloaf" class="dish" id="bacon-wrapped-meatloaf">Bacon-Wrapped Meatloaf</a></li>
+<li><img src="images/Cashew-Crusted-Pork-Chops-9-Lighter.jpg" alt="Asian Cashew Crusted Pork Chops" />
+<a href="#" data-display="asian-cashew" class="dish" id="asian-cashew-pork">Asian Cashew Crusted Pork Chops</a></li>
+<li><img src="images/Chile-Verde-2-Vertical-Lighter.jpg" alt="Chile Verde Stew" style="margin-top:-60px;" />
+<a href="#" data-display="chile-verde" class="dish" id="chile-verde-stew">Chile Verde Stew</a></li>
+<li><img src="images/crispy-german-pork-horiz-8.jpg" alt="Crispy Pork Chop “German Style”" />
+<a href="#" data-display="german-style" class="dish" id="crispy-pork-chop">Crispy Pork Chop “German Style”</a></li>
+<li><img src="images/Easy-Elegant_pork-Tenderloin-30.jpg" alt="Easy & Elegant Pork Tenderloin" />
+<a href="#" data-display="easy-elegant" class="dish" id="easy-pork-tenderloin">Easy & Elegant Pork Tenderloin</a></li>
+<li><img src="images/Easy-Pork-Lasagna-15-Horiz.jpg" alt="Easy Ground Pork Lasagna" />
+<a href="#" data-display="pork-lasagna" class="dish" id="easy-ground-pork-lasagna">Easy Ground Pork Lasagna</a></li>
+<li><img src="images/Honey-Mustard-BBQ-Pork-Medallions-2.jpg" alt="Honey Mustard BBQ Pork Medallions" />
+<a href="#" data-display="pork-medallions" class="dish" id="honey-mustard-pork">Honey Mustard BBQ Pork Medallions</a></li>
+<li><img src="images/Pork-&-Sweet-Potato-Pot-Roast-6-Overhead.jpg" alt="Pork & Sweet Potato Pot Roast" />
+<a href="#" data-display="potato-pot-roast" class="dish" id="pork-sweet-potato-pot-roast">Pork & Sweet Potato Pot Roast</a></li>
+<li><img src="images/pork-pot-pies-cut-13.jpg" alt="Pork Pot Pie" />
+<a href="#" data-display="pork-pot-pie" class="dish" id="porkPotPie">Pork Pot Pie</a></li>
+<li><img src="images/Pork-Tenderloin-Romesco-15-W_Sauce.jpg" alt="Pork Tenderloin with Romesco Sauce" style="margin-top:-90px;" />
+<a href="#" data-display="romesco-sauce" class="dish" id="pork-tenderloin-romesco">Pork Tenderloin with Romesco Sauce</a></li>
+<li><img src="images/slow-cooked-chili-no-wine-24-1.jpg" alt="Slow-Cooked Pork Chili" style="margin-top:-80px;" />
+<a href="#" data-display="slow-cooked-chili" class="dish" id="slow-cooked-pork-chili">Slow-Cooked Pork Chili</a></li>
+<li><img src="images/white-chili-2.jpg" alt="White Chili" style="margin-top:-70px;" />
+<a href="#" data-display="white-chili" class="dish" id="whiteChili">White Chili</a></li>
+<li><img src="images/winter-cranberry-pork-tenderloin-Horiz-16.jpg" alt="Winter Cranberry Baked Pork Tenderloin" />
+<a href="#" data-display="winter-cranberry" class="dish" id="winter-cran-pork-tenderloin">Winter Cranberry Baked Pork Tenderloin</a></li>
+</ul>
+</div>
+<!-- Overlay Boxes starts -->
+<!-- #meatloaf -->
+<div id="meatloaf" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/Bacon-Wrapped-Meatloaf-23-1.jpg" alt="Bacon-Wrapped Meatloaf" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>1 (16-oz.) pkg. Farmland<sup>®</sup> Double Smoked Bacon</li>
+<li>1 lb. Farmland<sup>®</sup> Fresh Ground Pork</li>
+<li>1 lb. lean ground beef</li>
+<li>2 eggs</li>
+<li>1 small onion, finely diced</li>		
+<li>½ green bell pepper, finely diced</li>
+<li>¾ cup barbecue sauce</li>
+<li>½ cup crushed crackers</li>
+<li>1 ½ teaspoons salt</li>
+<li>½ teaspoon ground black pepper</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Bacon-Wrapped Meatloaf</h1>
+<p>Makes about 8 servings<br />
+Prep Time: 2 hours</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Heat oven to 350°F. Weave all slices of bacon together into a mat on parchment paper or cutting board.</li>
+<li>Combine all ingredients except bacon in large bowl; mix well.</li>
+<li>Place pork mixture onto one end of the bacon mat and shape into a long loaf.</li>  
+<li>Roll bacon mat around meatloaf; place seam-side-down on rack in shallow roasting pan.</li>
+<li>Bake at 350°F. for 1 ½ hours until internal temperature reaches 160°F. and bacon is crisp. Remove from oven and turn oven to Broil setting. Carefully roll meatloaf over so that the bottom is on top. Place under broiler to crisp bacon, about 5 minutes.</li>
+<li>Let stand 15 minutes before slicing. Serve with additional barbecue sauce.</li>
+</ul>
+</div></div>
+<!-- #asian-cashew -->
+<div id="asian-cashew" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/Cashew-Crusted-Pork-Chops-9-Lighter.jpg" alt="Asian Cashew Crusted Pork Chops" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li><sup>1</sup>&frasl;<sub>3</sub> cup mild and creamy Dijon mustard</li>
+<li>2 tablespoons fresh grated ginger</li>
+<li>2 teaspoons soy sauce</li>
+<li>1 cup cashews</li>
+<li>2 teaspoons coarsely ground black pepper</li>
+<li>4 Farmland<sup>®</sup> Bone-In or Boneless Pork Chops (1-inch thick)</li>
+<li>¼ cup oil</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Asian Cashew Crusted Pork Chops</h1>
+<p>Makes 4 servings<br />
+Prep Time: 1 ½ hours</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>In small bowl, combine mustard, ginger and soy sauce; mix well. Combine cashews and pepper in blender or bowl of food processor; process until nuts are finely chopped.</li>
+<li>Dip each pork chop in mustard to coat all sides, then dip in cashews. Arrange coated chops in single layer on plate; cover and refrigerate 1 to 8 hours.</li>
+<li>Heat oil in large skillet over medium-high heat. Add chops to skillet. Cook 3 minutes, turn and cook additional 3 minutes to sear surface. Continue cooking until internal temperature reaches 150°F, carefully turning chops occasionally.</li>
+</ul>
+</div></div>
+<!-- #chile-verde -->
+<div id="chile-verde" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/Chile-Verde-2-Vertical-Lighter.jpg" alt="Chile Verde Stew" style="margin-top:-90px;" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>1 Farmland<sup>®</sup> Boneless Pork Butt (about 5 lbs.)</li>
+<li>1 (28-oz.) can green chile enchilada sauce</li>
+<li>1 cup chopped onions</li>
+<li>2 teaspoons olive oil</li>
+<li>2 (16-oz.) jars salsa verde</li>
+<li>2 large baked potatoes, cubed (skin on)</li>
+<li>2 teaspoons minced garlic</li>
+<li>Sour cream</li>
+<li>Fresh cilantro</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Chile Verde Stew</h1>
+<p>Makes 12 servings<br />
+Prep Time: 8 ½ hours</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Place pork butt in 4- to 5-quart slow cooker; pour enchilada sauce over top. Cover and cook on Low for 8 to 10 hours (High: 4 to 5 hours). Remove butt and cut into 1-inch pieces.</li>
+<li>Sauté onions in oil until tender and browned. Combine pork with onions, salsa verde, potatoes, and garlic in large saucepan or stockpot. Add enough of the enchilada sauce/pork broth from the slow cooker to make desired stew-like consistency.</li>
+<li>Bring to a boil over medium heat. Reduce heat and simmer 15 minutes. Serve with dollop of sour cream and cilantro.</li>
+</ul>
+</div></div>
+<!-- #german-style -->
+<div id="german-style" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/crispy-german-pork-horiz-8.jpg" alt="Crispy Pork Chop 'German Style'" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>4 Farmland<sup>®</sup> All Natural Center Cut Fresh Pork Chop</li>
+<li>Salt and pepper</li>
+<li>4 eggs, beaten</li>
+<li>3 cups seasoned breadcrumbs</li>
+<li>2 cups sauerkraut, drained</li>
+<li>¾ cup country Dijon mustard</li>
+<li>¼ cup mayonnaise or light mayonnaise</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Crispy Pork Chop “German Style”</h1>
+<p>Makes 4 servings<br />
+Prep Time: 30 mins</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Heat oven to 400°F. Season pork chops with salt and pepper.</li>
+<li>Place beaten eggs and breadcrumbs into two separate shallow dishes. Dip a pork chop into egg and then breadcrumbs, making sure to pat crumbs onto all surfaces of the chop; place onto baking sheet. Repeat with remaining chops.</li>
+<li>Bake at 400°F. for 15 to 20 minutes until internal temperature reaches 150°F.</li>
+<li>Meanwhile, heat sauerkraut in medium saucepan over low heat. Mix together mustard and mayonnaise in small bowl.</li>
+<li>To serve, place sauerkraut on plate, top with chop and spoonful of mustard sauce.</li>
+</ul>
+</div></div>
+<!-- #easy-elegant -->
+<div id="easy-elegant" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/Easy-Elegant_pork-Tenderloin-30.jpg" alt="Easy & Elegant Pork Tenderloin" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>2 lbs. Farmland<sup>®</sup> Peppercorn & Garlic Seasoned Tenderloin</li>
+<li>2 cups Italian seasoned bread crumbs</li>
+<li>½ cup olive oil</li>
+<li style="color:#CF2B2D">*Served with orange zest asparagus</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Easy & Elegant Pork Tenderloin</h1>
+<p>Makes 6 servings<br />
+Prep Time: 10 minutes<br />
+Cook Time: 35 minutes</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Preheat oven to 425°F.</li>
+<li>Mix bread crumbs and olive oil in bowl to reach consistency that would be moist enough to stick to the meat when pressed. Place pork on a shallow cooking sheet. Press the crumb mixture onto all sides of the meat until there is no pink showing, usually ¼ inch thick.</li>
+<li>Bake for at least 35 minutes until a meat thermometer reads 165°F or until there is no pink when the pork is cut. Let the pork rest for 10 minutes, then cut into ½ inch slices.</li>
+</ul>
+</div></div>
+<!-- #pork-lasagna -->
+<div id="pork-lasagna" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/Easy-Pork-Lasagna-15-Horiz.jpg" alt="Easy Ground Pork Lasagna" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>½ lb. Farmland<sup>®</sup> Fresh Ground Pork</li>
+<li>½ lb. lean ground beef</li>
+<li>1 (1 lb. 10-oz.) jar pasta sauce</li>
+<li>1 (14.5-oz.) can diced tomatoes</li>
+<li>1 (15-oz.) container light ricotta cheese</li>
+<li>1 egg</li>
+<li>½ cup grated Parmesan cheese</li>
+<li>1 teaspoon Italian seasoning</li>
+<li>9 oven ready lasagna noodles</li>
+<li>3 cups (12-oz.) shredded mozzarella cheese</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Easy Ground Pork Lasagna</h1>
+<p>Makes 12 servings<br />
+Prep Time: 1 ½ hours</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Heat oven to 350°F. Cook ground pork and beef over medium-high heat until meat is well browned. Remove from heat; stir in pasta sauce and tomatoes.</li>
+<li>Combine ricotta cheese, egg, Parmesan cheese and Italian seasoning in small bowl; mix well.</li>
+<li>Spoon 1 cup meat sauce into bottom of 13x9x2-inch baking dish. Arrange 3 noodles on top of sauce. Top noodles with <sup>1</sup>&frasl;<sub>3</sub> ricotta, <sup>1</sup>&frasl;<sub>3</sub> remaining meat sauce and 1 cup mozzarella cheese. Repeat layers 2 more times.</li>
+<li>Cover and bake at 350°F. for 45 minutes. Remove cover and bake an additional 15 minutes. Let stand 15 minutes before serving.</li>
+</ul>
+</div></div>
+<!-- #pork-medallions -->
+<div id="pork-medallions" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/Honey-Mustard-BBQ-Pork-Medallions-2.jpg" alt="Honey Mustard BBQ Pork Medallions" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>1 Farmland<sup>®</sup> Sweet Barbecue Seasoned Loin Filet</li>
+<li>2 tablespoons honey</li>
+<li>2 tablespoons stone ground mustard</li>
+<li>1 ½ cups corn flake cereal, slightly crushed</li>
+<li>2 tablespoons olive oil</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Honey Mustard BBQ Pork Medallions</h1>
+<p>Makes 4 servings<br />
+Prep Time: 15 mins.<br />
+Cook Time: 10 mins.<br />
+Marinating Time: 30 mins</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Cut loin filet diagonally into 1-inch thick slices; flatten with heel of hand.</li>
+<li>Combine honey and mustard in shallow dish; mix well. Dip pork slices into honey mixture then coat both sides with cereal.</li>
+<li>Heat oil in large skillet over medium-high heat. Cook pork medallions about 3 minutes per side until internal temperature reaches 150°F.</li>
+</ul>
+</div></div>
+<!-- #potato-pot-roast -->
+<div id="potato-pot-roast" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/Pork-&-Sweet-Potato-Pot-Roast-6-Overhead.jpg" alt="Pork & Sweet Potato Pot Roast" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>6 medium sweet potatoes, peeled and cut lengthwise into sixths</li>
+<li>3 Granny Smith apples, cored and cut into quarters</li>
+<li>1 small sweet onion, cut into sixths</li>
+<li>2 ½ to 3 lbs. Farmland<sup>®</sup> Boneless Pork Butt</li>
+<li>½ cup apple cider</li>
+<li>1 tablespoon dried rubbed sage</li>
+<li>2 teaspoons dried rosemary</li>
+<li>1 teaspoon black pepper</li>
+<li>½ teaspoon salt</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Pork & Sweet Potato Pot Roast</h1>
+<p>Makes 6 servings<br />
+Prep Time: 8 hours</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Layer sweet potatoes, apples and onion in 3 ½ - to 4-quart slow cooker. Place pork on top.</li>
+<li>Pour apple cider over roast; sprinkle with remaining ingredients. Cover and cook on Low 8 to 10 hours (High: 4 to 5 hours).</li>
+</ul>
+</div></div>
+<!-- #pork-pot-pie -->
+<div id="pork-pot-pie" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/pork-pot-pies-cut-13.jpg" alt="Pork Pot Pie" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>1 (16.3-oz.) can jumbo biscuits</li>
+<li>1 cup diced cooked Farmland<sup>®</sup> Rosemary and Olive Oils Seasoned Loin Filet or Sirloin Roast</li>
+<li>1 cup chopped frozen broccoli florets, thawed</li>
+<li>(10 ¾-oz.) can condensed broccoli cheese soup</li>
+<li>Shredded Swiss or Cheddar cheese, optional</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Pork Pot Pie</h1>
+<p>Makes 4 servings<br />
+Prep Time: 40 minutes</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Heat oven to 375°F. Separate biscuits and press with hands into a 5- to 6-inch circle. Place 1 round in each of 8 regular-size muffin cups. Firmly press in bottom and up sides, forming ½-inch rim.</li>
+<li>Combine remaining ingredients; mix well. Spoon filling into each biscuit crust, pushing into crust and mounding on top. If desired, sprinkle top of each with 1 tablespoon shredded cheese.</li>
+<li>Bake at 375°F. for 25 to 30 minutes until biscuits are golden brown. Cool in pan 5 minutes before removing to serve.</li>
+</ul>
+</div></div>
+<!-- #romesco-sauce -->
+<div id="romesco-sauce" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/Pork-Tenderloin-Romesco-15-W_Sauce.jpg" alt="Pork Tenderloin with Romesco Sauce" style="margin-top:-100px;" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>1 Farmland<sup>®</sup> Peppercorn & Garlic Seasoned Pork Tenderloin</li>
+<li>¼ cup toasted sliced almonds</li>
+<li>1 ½ slices whole wheat bread, toasted</li>
+<li>2 large tomatoes, roasted</li>
+<li>½ (15-oz.) jar roasted red peppers</li>
+<li>½ fresh lemon, squeezed</li>
+<li>2 tablespoons red wine vinegar</li>
+<li>½ teaspoon fresh ground black pepper, or to taste</li>
+<li>Salt, to taste</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>Pork Tenderloin with Romesco Sauce</h1>
+<p>Makes 5 servings<br />
+Prep Time: 30 minutes</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Roast tenderloin oven at 425°F. for 25 to 30 minutes until internal temperature reaches 150°F.</li>
+<li>Grind almonds and bread in blender until fine. Add tomatoes and red peppers; blend until smooth.</li>
+<li>Stir in remaining ingredients. Serve at room temperature over sliced tenderloin.</li>
+</ul>
+</div></div>
+<!-- #slow-cooked-chili -->
+<div id="slow-cooked-chili" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/slow-cooked-chili-no-wine-24-1.jpg" alt="Slow-Cooked Pork Chili" style="margin-top:-100px;" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>2 lbs. diced Farmland<sup>®</sup> All Natural Boneless Fresh Pork Butt</li>
+<li>3 cups low sodium chicken stock</li>
+<li>3 (15-oz.) cans kidney beans, rinsed and drained</li>
+<li>1 (28-oz.) can plum tomatoes</li>
+<li>4 cloves garlic, thinly sliced</li>
+<li>1 cup diced yellow onion</li>
+<li>¼ cup chili powder</li>
+<li>2 tablespoons tomato paste</li>
+<li>2 teaspoons kosher salt</li>
+</ul>
+<p>Optional garnish: sour cream or Greek yogurt, sliced green onions, shredded Cheddar cheese, and tortilla chips.</p>
+</div>
+<div class="instructions">
+<h1>Slow-Cooked Pork Chili</h1>
+<p>Makes 8 to 10 servings<br />
+Prep Time:  8 1/2 hours</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Place all ingredients into 3 ½- to 4-quart slow cooker; mix well. Cover and cook on Low 8 to 10 hours (High: 4 to 5 hours).</li>
+<li>Serve in bowls topped with desired garnishes.</li>
+</ul>
+</div></div>
+<!-- #white-chili -->
+<div id="white-chili" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/white-chili-2.jpg" alt="White Chili" style="margin-top:-100px;" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>2 tablespoons olive oil</li>
+<li>1 Farmland<sup>®</sup> Garlic & Herb Seasoned Loin Filet, cut into ½-inch cubes</li>
+<li>1 medium yellow onion, diced</li>
+<li>1 (32-oz.) box no salt added chicken stock</li>
+<li>2 (15-oz.) cans Great Northern white beans</li>
+<li>1 lb. Yukon gold potatoes, diced</li>
+<li>1 (1-lb.) bag frozen corn kernels</li>
+<li>2 (4-oz.) cans chopped fire roasted green chiles</li>
+<li>1 (14.75-oz.) can cream style corn</li>
+<li>1 ½ teaspoons salt</li>
+<li>1 teaspoon white pepper</li>
+<li>1 teaspoon minced garlic</li>
+<li>1 (16-oz.) container light sour cream</li>
+<li>2 tablespoons minced fresh cilantro</li>
+</ul>
+</div>
+<div class="instructions">
+<h1>White Chili</h1>
+<p>Makes 12 to 16 servings<br />
+Prep Time: 1 hour</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Heat oil in 6-quart stock pot. Stir fry pork cubes 7 minutes on high heat. Add onion; stir fry 5 minutes.</li>
+<li>Stir in remaining ingredients except sour cream and cilantro. Bring to a boil over medium-high heat; boil 15 minutes. Reduce heat and simmer 30 minutes, stirring occasionally.</li>
+<li>Remove chili from heat. Stir in sour cream and cilantro just before serving.</li>
+</ul>
+</div></div>
+<!-- #winter-cranberry -->
+<div id="winter-cranberry" class="portBox">
+<div class="ingredients">
+<div class="food-image"><img src="images/winter-cranberry-pork-tenderloin-Horiz-16.jpg" alt="Winter Cranberry Baked Pork Tenderloin" /></div>
+<h2>Ingredients</h2>
+<ul>
+<li>1 Farmland<sup>®</sup> All Natural Fresh Pork Tenderloin</li>
+<li>1 teaspoon dried thyme</li>
+<li><sup>1</sup>&frasl;<sub>8</sub> teaspoon ground nutmeg</li>
+<li>Salt and pepper</li>
+<li>1 cup thinly sliced yellow onions</li>
+<li>¾ cup dried cranberries</li>
+<li>1 cup low sodium chicken stock</li>
+</ul>
+<p>Optional pairing: instant soft polenta or sautéed spinach.</p>
+</div>
+<div class="instructions">
+<h1>Winter Cranberry Baked Pork Tenderloin</h1>
+<p>Makes 4 servings<br />
+Prep Time: 30 mins</p>
+<h2>Cooking Instructions</h2>
+<ul>
+<li>Heat oven to 400°F. Season pork chops with salt and pepper.</li>
+<li>Place beaten eggs and breadcrumbs into two separate shallow dishes. Dip a pork chop into egg and then breadcrumbs, making sure to pat crumbs onto all surfaces of the chop; place onto baking sheet. Repeat with remaining chops.</li>
+<li>Bake at 400°F. for 15 to 20 minutes until internal temperature reaches 150°F.</li>
+<li>Meanwhile, heat sauerkraut in medium saucepan over low heat. Mix together mustard and mayonnaise in small bowl.</li>
+<li>To serve, place sauerkraut on plate, top with chop and spoonful of mustard sauce.</li>
+</ul>
+</div></div>
+<!-- Overlay Boxes ends -->
+</body>
+</html>

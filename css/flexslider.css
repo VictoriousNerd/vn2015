@@ -1,0 +1,89 @@
+/*
+ * jQuery FlexSlider v1.8
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {
+	outline: none;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+}
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {
+	width: 100%;
+	display: block;
+	margin: -1px 0 0 0;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	box-shadow: 0 3px 7px rgba(0,0,0,0.50);
+	-moz-box-shadow: 0 3px 7px rgba(0,0,0,0.50);
+	-ms-box-shadow: 0 3px 7px rgba(0,0,0,0.50);
+	-o-box-shadow: 0 3px 7px rgba(0,0,0,0.50);
+	-webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.50);
+}
+.flexslider .slides > li {
+	display: none; 
+} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+	width: 100%; 
+	display: block;
+}
+/* Clearfix for the .slides element */
+.slides:after {
+	content: "."; 
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0; 
+	height: 0;
+}
+html[xmlns] .slides {
+	display: block;
+}
+* html .slides {
+	height: 1%;
+}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+	display: block;
+}
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {
+	width: 100%;
+}
+.flexslider ul.slides {
+	max-width: 100%;
+}
+.flexslider ul.slides > li {
+}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {
+}
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {
+	background: none; 
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); 
+}
+.flex-caption {
+	width: 100%; 
+	margin: 0; 
+	left: 0; 
+}

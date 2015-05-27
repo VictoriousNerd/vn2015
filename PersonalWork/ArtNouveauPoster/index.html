@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Education (Art Nouveau Inspired) Poster</title>
+<meta name="description" content="Web design, print design, UI/UX design. Desktop, mobile, and fluid envireonments.">
+<link href="../../images/favicon.ico" rel="icon">
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,400' rel='stylesheet' type='text/css'>
+<link href="../../css/global.css" rel="stylesheet" type="text/css">
+<link href="../../css/lightGallery.css" rel="stylesheet" type="text/css">
+<script src="../../javascript/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="../../javascript/jquery-2.1.3.min.js" type="text/javascript"></script>
+<script src="../../javascript/jquery.resmenu.js" type="text/javascript"></script>
+<script src="../../javascript/lightGallery.js" type="text/javascript"></script>
+</head>
+<body>
+<!-- header start -->
+<header>
+<div class="container">
+<a href="../../index.html" class="logo">VictoriousNerd.com</a>
+</div>
+</header>
+<!-- header end -->
+<!-- nav start -->
+<nav>
+<div class="menu_container">
+<ul class="toresponsive">
+<li><a href="../../index.html">Home</a></li>
+<li><a href="#">Professional Work</a>
+<ul>
+<li><a href="../../ProfessionalWork/MobileFuse/index.html">MobileFuse</a></li>
+<li><a href="../../ProfessionalWork/JamHub/index.html">JamHub</a></li>
+<li><a href="../../ProfessionalWork/LateralGroup/index.html">Lateral Group US</a></li>
+<li><a href="../../ProfessionalWork/Carbonite/index.html">Carbonite</a></li>
+<li><a href="../../ProfessionalWork/RISO/index.html">RISO</a></li>
+<li><a href="../../ProfessionalWork/TraherDesign/index.html">Traher Design</a></li>
+</ul>
+</li>
+<li><a href="#">Personal Work</a>
+<ul>
+<li><a href="../../PersonalWork/VideoGamesLive/index.html">VGL Posters</a></li>
+<li><a href="../../PersonalWork/WeddingEvite/index.html">MorAck Wedding</a></li>
+<li><a href="../../PersonalWork/MercuryTypeface/index.html">Mercury Typeface</a></li>
+<li><a href="../../PersonalWork/SkatePosters/index.html">Skate Posters</a></li>
+<li><a href="../../PersonalWork/PlayFreeEvent/index.html">Play Free Event</a></li>
+<li class="current-menu-item"><a href="index.html">Education Poster</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<!-- nav end -->
+<!-- Content (.container) starts -->
+<div class="container">
+<div class="spacer"></div>
+<ul id="lightGallery">
+<li class="one-column" data-src="images/art-nouveau-large.jpg" data-title="Education (Art Nouveau inspired)"><img src="images/art-nouveau.jpg" alt="Edcuation (Art Nouveau inspired">
+<p class="description">Education (Art Nouveau Inspired) Poster</p></li>
+</ul>
+<div class="spacer"></div>
+<article>
+<h1>Education (Art Nouveau Inspired) Poster</h1>
+<h3>2008 &mdash; Anna Dempsey, Instructor</h3>
+<hr>
+<p>The "Education" poster is based off the Art Nouveau movement; steeped in symbolism and organic shapes, yet re-drawn in Illustrator to give a graphic feel. This assignment for my History of Design class was to create a poster in a modern fashion that represented an older movement.</p>
+</article>
+<div class="spacer"></div>
+</div>
+<!-- Content (.container) ends -->
+<!-- footer start -->
+<footer>
+<div class="container">
+<ul>
+<li><a href="mailto:victor@victoriousnerd.com"><div class="email"></div></a></li>
+<li><a href="https://www.linkedin.com/in/victormorse" target="_blank"><div class="linked-in"></div></a></li>
+<li><a href="https://www.behance.net/VictoriousNerd" target="_blank"><div class="behance"></div></a></li>
+<li><a href="https://twitter.com/VictoriousNerd" target="_blank"><div class="twitter"></div></a></li>
+</ul>
+<p class="fine-print">© 2015 Victor Morse. All Rights Reserverd. Other copyrights apply on select pieces, all work used with permission.</p>
+</div>
+</footer>
+<!-- footer end -->
+<!-- Hook up the resmenu -->
+<script type="text/javascript">
+$(document).ready(function () {
+    $('.toresponsive').ReSmenu({
+    menuClass:    'responsive_menu',   // Responsive menu class
+    selectId:     'resmenu',          // select ID
+    textBefore:   false,               // Text to add before the mobile menu
+    selectOption: false,               // First select option
+    activeClass:  'current-menu-item', // Active menu li class
+    maxWidth:     1023                  // Size to which the menu is responsive
+});
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+$("#lightGallery").lightGallery({
+	// Elements
+	thumbnail   : true,  // Whether to display a button to show thumbnails.
+	caption     : true, // Enables image captions. Content is taken from "data-title" attribute.
+	captionLink : false, // Makes image caption a link. URL is taken from "data-link" attribute.
+	desc        : false, // Enables image descriptions. Description is taken from "data-desc" attr.
+	counter     : false, // Shows total number of images and index number of current image.
+	controls    : true,  // Whether to display prev/next buttons.
+	//preload
+	preload     : 1,  //number of preload slides. will exicute only after the current slide is fully loaded. ex:// you clicked on 4th image and if preload = 1 then 3rd slide and 5th slide will be loaded in the background after the 4th slide is fully loaded.. if preload is 2 then 2nd 3rd 5th 6th slides will be preloaded.. ... ...
+	// Transitions
+	mode   : 'slide',  // Type of transition between images. Either 'slide' or 'fade'.
+	useCSS : true,     // Whether to always use jQuery animation for transitions or as a fallback.
+	easing : 'linear', // Value for CSS "transition-timing-function" prop. and jQuery .animate().
+	speed  : 1000,     // Transition duration (in ms).
+	// Navigation
+	hideControlOnEnd : false, // If true, prev/next button will be hidden on first/last image.
+	loop             : false, // Allows to go to the other end of the gallery at first/last img.
+	auto             : false, // Enables slideshow mode.
+	pause            : 4000,  // Delay (in ms) between transitions in slideshow mode.
+	escKey           : true,  // Whether lightGallery should be closed when user presses "Esc".
+	// Mobile devices
+	mobileSrc         : false, // If "data-responsive-src" attr. should be used for mobiles.
+	mobileSrcMaxWidth : 640,   // Max screen resolution for alternative images to be loaded for.
+	swipeThreshold    : 50,    // How far user must swipe for the next/prev image (in px).
+	// Video
+	vimeoColor    : 'CCCCCC', // Vimeo video player theme color (hex color code).
+	videoAutoplay : true,     // Set to false to disable video autoplay option.
+	videoMaxWidth : 855,      // Limits video maximal width (in px).
+	// i18n
+	lang : { allPhotos: 'All photos' }, // Text of labels.
+	// Callbacks
+	onOpen        : function() {}, // Executes immediately after the gallery is loaded.
+	onSlideBefore : function() {}, // Executes immediately before each transition.
+	onSlideAfter  : function() {}, // Executes immediately after each transition.
+	onSlideNext   : function() {}, // Executes immediately before each "Next" transition.
+	onSlidePrev   : function() {}, // Executes immediately before each "Prev" transition.
+	onBeforeClose : function() {}, // Executes immediately before the start of the close process.
+	onCloseAfter  : function() {}, // Executes immediately once lightGallery is closed.
+	// Dynamical load
+	dynamic   : false, // Set to true to build a gallery based on the data from "dynamicEl" opt.
+	dynamicEl : [],    // Array of objects (src, thumb, caption, desc, mobileSrc) for gallery els.
+	// Misc
+	rel          : false, // Combines containers with the same "data-rel" attr. into 1 gallery.
+	exThumbImage : false, // Name of a "data-" attribute containing the paths to thumbnails.
+});
+});
+</script>
+</body>
+</html>

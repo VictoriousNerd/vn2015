@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Morse/Ackerman Wedding/Party/Reception</title>
+<link href="Wedding.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="main">
+<img src="images/Wedding_Graphic.jpg" border="0" />
+
+<h1>THE HONOR OF YOUR PRESENCE<br /> IS REQUESTED AT THE:</h1>
+<h1 style="text-align:right;"><span style="color:#ffffff;">WEDDING</span>/<span style="color:#F15A24;">PARTY</span>/<span style="color:#29ABE2;">RECEPTION</span></h1>
+
+<h1>ON THE</h1>
+<h2 style="text-align:center">10TH OF SEPTEMBER 2011 AT HIGH NOON</h2>
+<h3 style="text-align:right">17TH OF SEPTEMBER 2011 AT 5PM<span style="font-size:12px;">BONUS BIRTHDAY PARTY</span></h3>
+<h4 style="text-align:center">1ST OF OCTOBER AT 2PM</h4>
+<br />
+<h1 style="text-align:center"><span style="font-size:48px;">ALL EVENTS WILL HAVE DELICIOUS FOOD AND BEVERAGES!</span></h1>
+
+<p><span style="color:#FFFFFF;">WEDDING<br />10TH OF SEPTEMBER<br /><a href="http://maps.google.com/maps?q=The+Willows+Park,+Salem,+MA&daddr=183-185+Fort+Avenue,+Salem,+MA+01970&hl=en&sll=42.527281,-70.883083&sspn=0.018578,0.032719&view=map&geocode=CRcOXSTNU9x-FbEFiQIdfJPG-yETmmp_mCcRcA&z=16" target="_blank"><span style="color:#FFFFFF;">THE WILLOWS PARK</span><br />SALEM, MA</a><br /><a href="http://www.thegreenlandcafe.com/" target="_blank"><span style="color:#FFFFFF;">LUNCH FOLLOWING AT GREENLAND CAFE</span></a></span></p>
+
+<p style="text-align:center"><span style="color:#F15A24;">WEDDING PARTY/BIRTHDAY PARTY<br />17TH OF SEPTEMBER<br /><a href="MissingInfo.html"><span style="color:#F15A24;">123 LOLLIPOP LANE<br />BOSTON, MA</span></a><br />BBQ ON ROOF DECK</span></p>
+
+<p style="text-align:right;"><span style="color:#29ABE2;">FAMILY RECEPTION<br />1ST OCTOBER<br /><a href="http://maps.google.com/maps?daddr=Trout+Run+Fire+Hall,+Trout+Run,+PA&hl=en&sll=42.28765,-71.054584&sspn=0.01081,0.021758&mra=ls&z=16" target="_blank"><span style="color:#29ABE2;">TROUT RUN FIRE HALL<br />TROUT RUN, PA</span></a><br />PIG ROAST</span></p>
+
+<div id="form">
+<?=$message?>
+<form id="FormName" action="Wedding_Party_Reception.php" method="post" name="FormName">
+<label for="EmailFrom">FIRST NAME:</label>
+<input id="EmailFrom" type="text" name="EmailFrom" size="25"><br /><br />
+<label for="LastName">LAST NAME:</label>
+<input id="LastName" name="LastName" type="text" size="25" maxlength="255"><br /><br />
+<label for="Guest">GUEST NAME:</label>
+<input id="Guest" name="Guest" type="text" size="25" maxlength="255"><br /><br />
+<label for="Phone">PHONE:</label>
+<input id="Phone" name="Phone" type="text" size="25" maxlength="255"><br /><br />
+<label for="Food"><span style="color:#29ABE2;">CHICKEN OR PORK OR BOTH?</span><br />
+<span style="font-size:14px; color:#29ABE2;">FOR RECEPTION ONLY.</span></label><br />
+<input id="Food" name="Food" type="text" size="25" maxlength="255"><br /><br />
+<label for="Other">ANYTHING ELSE WE SHOULD KNOW?<br /> 
+<span style="font-size:14px;">FOOD ALLERGIES, QUESTIONS, IF YOU CANNOT ATTEND ALL EVENTS<br /> PLEASE INCLUDE WHICH ONES YOU CAN ATTEND BELOW.</span></label><br />
+<textarea id="Other" name="Other" rows="15" cols="75"></textarea><br /><br />
+
+<input type="submit" name="submitButtonName" value="RSVP">
+</form>
+
+</div>
+</div>
+</body>
+</html>

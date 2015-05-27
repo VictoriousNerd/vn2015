@@ -1,0 +1,77 @@
+@charset "UTF-8";
+Body {
+	background-image:url(images/BG.jpg);
+	background-repeat: repeat;
+}
+a {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+h1 {
+	
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#fcf02c;
+	text-transform: capitalize;
+	margin-left:25px;
+	margin-right:25px;
+}
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-transform: capitalize;
+	margin-left:25px;
+	margin-right:25px;
+}
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	color:#F15A24;
+	font-weight:bold;
+	text-transform: capitalize;
+	margin-left:25px;
+	margin-right:25px;
+}
+h4 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	color:#29ABE2;
+	font-weight:bold;
+	text-transform: capitalize;
+	margin-left:25px;
+	margin-right:25px;
+}
+p {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#fcf02c;
+	text-transform: capitalize;
+	text-align: left;
+	margin-left:25px;
+	margin-right:25px;
+}
+label {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#fcf02c;
+	text-transform:capitalize;
+}
+#main {
+	background-color: #000000;
+	float: none;
+	height: auto;
+	width: 800px;
+	margin-top:-10px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+}
+#form {
+	margin:25px;
+}

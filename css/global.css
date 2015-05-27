@@ -1,0 +1,484 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/   v2.0 | 20110126    License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h1, h2, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Source Sans Pro', sans-serif;
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ======================================================= Tags ======================================================== */
+article {
+	max-width: 760px;
+	width: 100%;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 24px;
+	font-weight: 300;
+	color: #ff8800;
+	text-align: center;
+}
+h2 {
+	margin: 10px 0 5px 0;
+	font-size: 18px;
+	font-weight: 300;
+	color: #007EB2;
+}
+h3 {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #ccc;
+	text-align: center;
+}
+p {
+	font-family: 'Vollkorn', serif;
+	font-size: 13px;
+	line-height: 16px;
+	color: #666;
+	text-align: left;
+}
+ul.bullet-list {
+	margin: 5px 2px;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+ul.bullet-list li {
+	font-family: 'Vollkorn', serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #666;}
+hr {
+	margin: 15px 0;
+	border-top: 1px solid #00B4FF;
+	border-right: 0;
+	border-left: 0;
+	border-botom: 0;
+}
+a {
+	text-decoration: none;
+	font-style: italic;
+	color: #007EB2;
+}
+a:hover {
+	text-decoration: underline;
+}
+/* ======================================================= Classes ======================================================== */
+.container {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.spacer {
+	width: 100%;
+	height: 50px;
+}
+/* ======================================================= Header ======================================================== */
+header {
+	width: 100%;
+	/* Background gradient */
+	background: #ff9419; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;	base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmY5NDE5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTklIiBzdG9wLWNvbG9yPSIjYjI1ZjAwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(-45deg,  #ff9419 0%, #b25f00 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff9419), color-stop(99%,#b25f00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #ff9419 0%,#b25f00 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #ff9419 0%,#b25f00 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #ff9419 0%,#b25f00 99%); /* IE10+ */
+	background: linear-gradient(135deg,  #ff9419 0%,#b25f00 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9419', endColorstr='#b25f00',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+a.logo {
+	width: 100%;
+	height: 50px; 
+	margin: 0 0 3px 0;
+	padding: 12px 0 0 55px;
+	display: block;
+	box-sizing: border-box;
+	background: url(../images/NerdSkulls-2.png) 0 0 no-repeat;
+	background-size: auto 100%;
+	font-size: 28px;
+	font-weight: 300;
+	font-style: normal;
+	color: #fff;
+}
+/* ======================================================= Nav ======================================================== */
+nav {
+	width: 100%;
+	background: #fff;
+}
+.menu_container {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+}
+.menu_container a {
+	font-style: normal;
+	color: #666;
+}
+.menu_container a:hover {
+	color: #ff8800;
+}
+.menu_container ul {
+	display: block;
+}
+.menu_container ul li.current-menu-item a {
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #ff8800;
+}
+.menu_container > ul > li {
+	width: 33%;
+	display: inline-block;
+}
+/* dropdown menu */
+.menu_container > ul > li > ul {
+	width: 33%;
+	margin: 0 -11px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-bottom-left-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-ms-border-bottom-left-radius: 5px;
+	-o-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px; 
+	-moz-border-bottom-right-radius: 5px; 
+	-ms-border-bottom-right-radius: 5px; 
+	-o-border-bottom-right-radius: 5px; 
+	-webkit-border-bottom-right-radius: 5px; 
+	box-shadow: 5px 5px 7px rgba(0,0,0,0.50);
+	-moz-box-shadow: 5px 5px 7px rgba(0,0,0,0.50);
+	-ms-box-shadow: 5px 5px 7px rgba(0,0,0,0.50);
+	-o-box-shadow: 5px 5px 7px rgba(0,0,0,0.50);
+	-webkit-box-shadow: 5px 5px 7px rgba(0,0,0,0.50);
+	display: none;
+}
+.menu_container > ul > li:hover > ul { 
+	display: block;
+	position: absolute;
+}
+.menu_container > ul > li > ul > li {
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+.menu_container > ul > li > ul > li:last-child { 
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+/* ======================================================= Footer ======================================================== */
+footer {
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #ff8800;
+}
+footer ul {
+	margin: 0 0 5px 0;
+}
+footer ul li {
+	margin: 0 10px;
+	display: inline-block;
+}
+.email {
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: url(../images/social-media-icons.png) 0 0 no-repeat;
+	background-size: 200%;
+}
+.email:hover {
+	background: url(../images/social-media-icons.png) -30px 0 no-repeat;
+	background-size: 200%;
+}
+.linked-in {
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: url(../images/social-media-icons.png) 0 -60px no-repeat;
+	background-size: 200%;
+}
+.linked-in:hover {
+	background: url(../images/social-media-icons.png) -30px -60px no-repeat;
+	background-size: 200%;
+}
+.behance {
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: url(../images/social-media-icons.png) 0 -30px no-repeat;
+	background-size: 200%;
+}
+.behance:hover {
+	background: url(../images/social-media-icons.png) -30px -30px no-repeat;
+	background-size: 200%;
+}
+.twitter {
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: url(../images/social-media-icons.png) 0 -90px no-repeat;
+	background-size: 200%;
+}
+.twitter:hover {
+	background: url(../images/social-media-icons.png) -30px -90px no-repeat;
+	background-size: 200%;
+}
+footer p.fine-print {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #ff8800;
+	text-align: center;
+}
+/* ======================================================= Page Content ======================================================== */
+/* Gallery Layout */
+ul#lightGallery {
+	max-width: 760px;
+	margin: 0 auto;
+}
+ul.no-overlay {
+	max-width: 760px;
+	margin: 0 auto;
+}
+li.one-column,
+li.two-column {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 0;
+}
+li.one-column {
+	max-width: 760px;
+}
+li.two-column {
+	max-width: 378px;
+}
+.one-column img,
+.two-column img {
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #666;
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.50);
+	-moz-box-shadow: 3px 3px 7px rgba(0,0,0,0.50);
+	-ms-box-shadow: 3px 3px 7px rgba(0,0,0,0.50);
+	-o-box-shadow: 3px 3px 7px rgba(0,0,0,0.50);
+	-webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.50);
+}
+p.description {
+	margin: 5px 0 0 0;
+	font-style: italic;
+	color: #007EB2;
+}
+/* ===== MobileFuse Nav ===== */
+ul.mobilefuse-nav li {
+	margin-right: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	border-right: 1px solid #ccc;
+}
+ul.mobilefuse-nav li:last-child {
+	border-right: 0;
+}
+ul.mobilefuse-nav li a {
+	font-size: 15px;
+	font-style: normal;
+	line-height: 20px;
+	color: #666;
+}
+ul.mobilefuse-nav li a:hover {
+	color: #007EB2;
+	text-decoration: underline;
+}
+ul.mobilefuse-nav li a.active {
+	font-weight: 700;
+	color: #ff8800;
+}
+@media only screen and (max-width: 1023px) {
+/* ======================================================= Tags ======================================================== */
+article {
+	margin-bottom: 100px;
+}
+h1 {
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+}
+h2 {
+	margin: 10px 0 5px 0;
+	font-size: 14px;
+	font-weight: 700;
+}
+h3 {
+	font-size: 12px;
+	letter-spacing: 0;
+	text-align: left;
+}
+p {
+	margin-bottom: 5px;
+	font-size: 13px;
+	line-height: 16px;
+}
+hr {
+	margin: 10px 0;
+	border-top: 1px solid #00B4FF;
+	border-right: 0;
+	border-left: 0;
+	border-botom: 0;
+}
+/* ======================================================= Classes ======================================================== */
+.container {
+	padding: 0 15px;
+}
+.spacer {
+	height: 25px;
+}
+/* ======================================================= Header ======================================================== */
+header {
+	padding: 10px 0;
+}
+a.logo {
+	height: 40px; 
+	margin: 0;
+	padding: 8px 0 0 45px;
+	font-size: 24px;
+}
+/* ======================================================= Nav ======================================================== */
+nav {
+	position: fixed;
+	bottom: 63px;
+}
+.menu_container {
+	margin: 0;
+	padding: 10px;
+	border-bottom: 0;
+	border-top: 1px solid #ccc;
+}
+.responsive_menu select {
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: url(../images/drop-arrow.png) center right no-repeat #fff;
+	background-size: 25px 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+	color: #666;
+}
+.responsive_menu select:hover {
+	border: 1px solid #ff8800;
+	color: #ff880;
+}
+/* ======================================================= Footer ======================================================== */
+footer {
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+footer ul {
+	margin: 0;
+}
+footer ul li {
+	margin: 10px;
+}
+.email {
+	width: 40px;
+	height: 40px;
+	background: url(../images/social-media-icons.png) 0 0 no-repeat;
+}
+.email:hover {
+	background: url(../images/social-media-icons.png) -40px 0 no-repeat;
+}
+.linked-in {
+	width: 40px;
+	height: 40px;
+	background: url(../images/social-media-icons.png) 0 -80px no-repeat;
+}
+.linked-in:hover {
+	background: url(../images/social-media-icons.png) -40px -80px no-repeat;
+}
+.behance {
+	width: 40px;
+	height: 40px;
+	background: url(../images/social-media-icons.png) 0 -40px no-repeat;
+}
+.behance:hover {
+	background: url(../images/social-media-icons.png) -40px -40px no-repeat;
+}
+.twitter {
+	width: 40px;
+	height: 40px;
+	background: url(../images/social-media-icons.png) 0 -120px no-repeat;
+}
+.twitter:hover {
+	background: url(../images/social-media-icons.png) -40px -120px no-repeat;
+}
+footer p.fine-print {
+	display: none;
+}
+/* ======================================================= Page Content ======================================================== */
+/* ===== MobileFuse Nav ===== */
+ul.mobilefuse-nav li {
+	margin-top: 10px;
+}
+}
